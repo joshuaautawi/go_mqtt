@@ -19,5 +19,11 @@ Open new terminal and add this command
 mosquitto_pub -h localhost -t test/topic -m "Hello, MQTT!"
 ```
 
+### Run GO apps
+
+```bash
+    go run main.go
+```
+
 You should get this response
 ![Project Screenshot](./ss1.JPG)
